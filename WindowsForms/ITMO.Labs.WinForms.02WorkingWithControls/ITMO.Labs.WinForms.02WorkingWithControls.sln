@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task1", "ITMO.Labs.WinForms.02WorkingWithControls.Task1\ITMO.Labs.WinForms.02WorkingWithControls.Task1.csproj", "{60B9A335-DB5B-4387-AB2E-90F25CB0D4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task2", "ITMO.Labs.WinForms.02WorkingWithControls.Task2\ITMO.Labs.WinForms.02WorkingWithControls.Task2.csproj", "{F37365A7-DD62-4F99-B2E0-40202B84EED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task3_4", "ITMO.Labs.WinForms.02WorkingWithControls.Task3\ITMO.Labs.WinForms.02WorkingWithControls.Task3_4.csproj", "{1EEA2D01-59D1-4FE4-A0A1-6289F2DFD87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task5", "ITMO.Labs.WinForms.02WorkingWithControls.Task5\ITMO.Labs.WinForms.02WorkingWithControls.Task5.csproj", "{69890E22-5C76-4A7D-89DE-54595AFBD966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task6", "ITMO.Labs.WinForms.02WorkingWithControls.Task6\ITMO.Labs.WinForms.02WorkingWithControls.Task6.csproj", "{03757EE0-4ABF-43C0-8117-A770CA9E37F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.Labs.WinForms.02WorkingWithControls.Task7_8", "ITMO.Labs.WinForms.02WorkingWithControls.Task7_8\ITMO.Labs.WinForms.02WorkingWithControls.Task7_8.csproj", "{A3E1556A-045D-47B4-BE34-E54A0D9D2CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60B9A335-DB5B-4387-AB2E-90F25CB0D4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B9A335-DB5B-4387-AB2E-90F25CB0D4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B9A335-DB5B-4387-AB2E-90F25CB0D4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B9A335-DB5B-4387-AB2E-90F25CB0D4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37365A7-DD62-4F99-B2E0-40202B84EED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37365A7-DD62-4F99-B2E0-40202B84EED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37365A7-DD62-4F99-B2E0-40202B84EED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37365A7-DD62-4F99-B2E0-40202B84EED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEA2D01-59D1-4FE4-A0A1-6289F2DFD87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEA2D01-59D1-4FE4-A0A1-6289F2DFD87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEA2D01-59D1-4FE4-A0A1-6289F2DFD87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEA2D01-59D1-4FE4-A0A1-6289F2DFD87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69890E22-5C76-4A7D-89DE-54595AFBD966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69890E22-5C76-4A7D-89DE-54595AFBD966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69890E22-5C76-4A7D-89DE-54595AFBD966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69890E22-5C76-4A7D-89DE-54595AFBD966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03757EE0-4ABF-43C0-8117-A770CA9E37F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03757EE0-4ABF-43C0-8117-A770CA9E37F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03757EE0-4ABF-43C0-8117-A770CA9E37F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03757EE0-4ABF-43C0-8117-A770CA9E37F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E1556A-045D-47B4-BE34-E54A0D9D2CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E1556A-045D-47B4-BE34-E54A0D9D2CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E1556A-045D-47B4-BE34-E54A0D9D2CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E1556A-045D-47B4-BE34-E54A0D9D2CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C876019C-C275-46F8-A016-AB3D9E452EEF}
+	EndGlobalSection
+EndGlobal
