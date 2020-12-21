@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab08\Lab08\Lab08\main.cpp(51,22): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  student.cpp
+  Создание кода...
+  Lab08.vcxproj -> C:\Work\Касьянов\Разное\Docs\C++\HW\Lab08\Lab08\Debug\Lab08.exe
