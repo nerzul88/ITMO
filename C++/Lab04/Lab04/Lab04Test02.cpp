@@ -4,24 +4,28 @@
 
 using namespace std;
 
-bool Input(int, int);
+bool Input(int&, int&);
 
-bool Input(int a, int b) {	
-	if (isdigit(a) && isdigit(a))
+bool Input(int& a, int& b) {	
+	//int a, b;
+	cout << "¬ведите число a, большее 5: " << endl;
+	cout << "a = "; cin >> a;
+	cout << "¬ведите число b, меньшее 10: " << endl;
+	cout << "b = "; cin >> b;
+
+	if (a > 5 && b < 10) {
 		return true;
-	else
+	}
+	else {
 		return false;
+	}
 }
 
 int main() {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 
-	int a, b;
-	cout << "¬ведите число a: ";
-	cin >> a;
-	cout << "¬ведите число b: ";
-	cin >> b;
+	int a, b;	
 	if (Input(a, b) == false) {
 		cerr << "error";
 		return 1;
