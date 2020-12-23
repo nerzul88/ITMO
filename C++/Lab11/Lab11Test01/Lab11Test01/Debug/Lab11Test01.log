@@ -1,0 +1,8 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(60,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(70,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(80,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(96,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(102,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Lab11Test01\main.cpp(108,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  Lab11Test01.vcxproj -> \\Mac\Home\Documents\Инженер-программист\C++\HW\VS\Lab11\Lab11Test01\Debug\Lab11Test01.exe
