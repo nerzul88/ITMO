@@ -1,0 +1,9 @@
+﻿  Lab09Test02.cpp
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(46,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(56,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(66,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(90,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(107,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(113,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Lab09\Lab09Test02.cpp(119,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  Lab09.vcxproj -> C:\Work\Касьянов\Разное\Docs\C++\HW\Lab09\Lab09\Debug\Lab09.exe
