@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Work\Касьянов\Разное\Docs\C++\HW\Lab14\Lab14Task2\Lab14Task2\main.cpp(77,28): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Lab14Task2.vcxproj -> C:\Work\Касьянов\Разное\Docs\C++\HW\Lab14\Lab14Task2\Debug\Lab14Task2.exe
