@@ -1,81 +1,30 @@
 #include <iostream>
+#include <vector>
 #include <Windows.h>
-#include <string>
+#include "human.h"
+#include "student.h"
+#include "teacher.h"
 
 using namespace std;
 
-class Item {
-private:
-	string title;
-	double price;
-public:
-	virtual void getdata() {
-		cout << "\nВведите заголовок: ";
-		cin >> title;
-		cout << "\nВведите цену: ";
-		cin >> price;
-	}
-	virtual void putdata() {
-		cout << "\nЗаголовок: " << title;
-		cout << "\nЦена: " << price;
-	}
-};
-
-class Paperbook : public Item {
-private:
-	int pages;
-
-public:
-	void getdata() {
-		Item::getdata();
-		cout << "\nВведите число страниц: ";
-		cin >> pages;
-	}
-	void putdata() {
-		Item::putdata();
-		cout << "\nСтраниц: " << pages;
-	}
-};
-
-class AudioBook : public Item {
-private:
-	double time;
-public:
-	void getdata() {
-		Item::getdata();
-		cout << "\nВведите время звучания: ";
-		cin >> time;
-	}
-	void putdata() {
-		Item::putdata();
-		cout << "\nВремя звучания: " << time;
-	}
-};
-
 int main() {
-	SetConsoleOutputCP(1251);
-	SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
 
-	Item* pubarr[100];
+    unsigned int teacher_work_time = 40;
+    teacher* tch = new teacher("Оби", "Ван", "Кеноби", teacher_work_time);
+    tch->get_full_name();
 
-	int n = 0;
-	char choice;
-	do {
-		cout << "\nВводить данные для книги или звукового файла (b/a)?";
-		cin >> choice;
-		if (choice == 'b')
-			pubarr[n] = new Paperbook;
-		else
-			pubarr[n] = new AudioBook;
-		pubarr[n++]->getdata();
-		cout << "\nПродолжать(y/n)?";
-		cin >> choice;
-	} 
-	while (choice == 'y');
-
-	for (int j = 0; j < n; j++)
-		pubarr[j]->putdata();
-	cout << endl;	
-
-	return 0;
+    std::vector<int> scores;
+    scores.push_back(5);
+    scores.push_back(3);
+    scores.push_back(4);
+    scores.push_back(4);
+    scores.push_back(5);
+    scores.push_back(3);
+    scores.push_back(3);
+    scores.push_back(3);
+    scores.push_back(3);
+    student* stud = new student("Энакин", "Скайуокер", "", scores);
+    stud->get_full_name();
 }
