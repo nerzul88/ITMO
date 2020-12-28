@@ -1,0 +1,10 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\TestProject\TestProject\TestProject\generator.h(11,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\TestProject\TestProject\TestProject\sufferer.h(43,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+\\Mac\Home\Documents\Инженер-программист\C++\HW\VS\TestProject\TestProject\TestProject\game.h(58): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Sufferer::attack<_Ty>(T &)"
+          with
+          [
+              _Ty=Leprous,
+              T=Leprous
+          ]
+  TestProject.vcxproj -> \\Mac\Home\Documents\Инженер-программист\C++\HW\VS\TestProject\TestProject\Debug\TestProject.exe
