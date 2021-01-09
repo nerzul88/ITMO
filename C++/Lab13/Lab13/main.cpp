@@ -8,23 +8,31 @@
 using namespace std;
 
 int main() {
-    SetConsoleOutputCP(1251);
-    SetConsoleCP(1251);
-
-    unsigned int teacher_work_time = 40;
-    teacher* tch = new teacher("Оби", "Ван", "Кеноби", teacher_work_time);
-    tch->get_full_name();
-
-    std::vector<int> scores;
-    scores.push_back(5);
-    scores.push_back(3);
-    scores.push_back(4);
-    scores.push_back(4);
-    scores.push_back(5);
-    scores.push_back(3);
-    scores.push_back(3);
-    scores.push_back(3);
-    scores.push_back(3);
-    student* stud = new student("Энакин", "Скайуокер", "", scores);
-    stud->get_full_name();
+	setlocale(LC_ALL, "Russian");
+	std::vector<int> scores;
+	human* pubarr[100];
+	int n = 0;
+	char choice;
+	string name;
+	string last_name;
+	string second_name;
+	int working_hours;
+	do
+	{
+		std::cout << "\nВводить данные о студентах(s) или преподавателях(t) ? ";
+		std::cin >> choice;
+		if (choice == 's') {
+			pubarr[n] = new student();
+		}
+		else {
+			pubarr[n] = new teacher();
+		}
+		pubarr[n++]->getdata();
+		std::cout << "Продолжать(у / n) ? ";
+		std::cin >> choice;
+	} while (choice == 'y');
+	for (int j = 0; j < n; j++)
+		pubarr[j]->putdata();
+	std::cout << std::endl;
+	return 0;
 }

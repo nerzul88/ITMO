@@ -2,14 +2,13 @@
 #include "human.h"
 #include <string>
 class teacher : public human {
+	//Конструктор teacher
 public:
-	teacher() {
-
-	}
 	teacher(
 		std::string last_name,
 		std::string name,
 		std::string second_name,
+		//Количество учебных часов за семестр у преподавателя
 		unsigned int work_time
 	) : human(
 		last_name,
@@ -18,23 +17,18 @@ public:
 	) {
 		this->work_time = work_time;
 	}
-	unsigned int get_work_time()
-	{
+	//Получение количества учебных часов
+	unsigned int get_work_time() {
 		return this->work_time;
 	}
 
-	void getdata()
-	{
-		human::getdata();
-		std::cout << "\nВведите часы работы : ";
-		std::cin >> work_time;
+	void get_full_name() {
+		std::cout << "Учитель: ";
+		human::get_full_name();
+		std::cout << "\n Работал в этом году: " << get_work_time() << " часов"<< std::endl;
+	}
 
-	}
-	virtual void putdata()
-	{
-		human::putdata();
-		std::cout << "Количество часов: " << get_work_time() << std::endl;
-	}
 private:
+	//Учебные часы
 	unsigned int work_time;
 };
